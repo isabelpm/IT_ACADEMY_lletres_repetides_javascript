@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isabel Puig" />
+    <title>Fase 2</title>
+</head>
+
+<body>
+    <h1>Fase 2 - Lletres repetides</h1>
+    <script>
+
+        let arrayNom = ["i", "s", "a", "b", 3, "e", "l"];
+        let i;
+        console.log("Partim del nom " + arrayNom);
+
+        //Índex es inferior a l'última posició (length)
+        for (i = 0; i < arrayNom.length; i++) {
+
+                //Definim quines son les vocals
+            if (arrayNom[i] == "a" || arrayNom[i] == "e" || arrayNom[i] == "i" || arrayNom[i] == "o" || arrayNom[i] == "u") {
+                console.log("He trobat la VOCAL: " + arrayNom[i]);
+
+                //Definim quin son els números
+            } else if (arrayNom[i] == 0 || arrayNom[i] == 1 || arrayNom[i] == 2 || arrayNom[i] == 3 || arrayNom[i] == 4 || arrayNom[i] == 5 || arrayNom[i] == 6 || arrayNom[i] == 7 || arrayNom[i] == 8 || arrayNom[i] == 9) {
+                console.log("Els noms de persones no contenen el número: " + arrayNom[i]);
+            } else {
+                // Per eliminació sortirà les lletres restant com a consonants
+                console.log("He trobat la CONSONANT: " + arrayNom[i]);
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

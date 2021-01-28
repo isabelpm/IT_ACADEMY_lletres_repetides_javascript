@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isabel Puig" />
+    <title>Fase 3 - Lletres repetides</title>
+</head>
+
+<body>
+    <h1>Fase 3 - Lletres repetides</h1>
+    <h4>Mètodes/Objectes utilitzats</h4>
+    <ul>
+        <li>returnObject</li>
+        <li>variable.split ('')</li>
+        <li>let variable = variable.map(function (character)</li>
+        <li>returnObject.hasOWnProperty(character)</li>
+    </ul>
+
+    <script>
+
+        // Objecte buit a on emmagatzemarà els valors de resposta
+        const returnObject = {};
+
+        // Declaro el nom (string)
+        let nom = "ISABEL";
+
+        //Dividir el string (nom) en lletres separades
+        let nombre = nom.split('');
+
+        // Emmagatzemo en "dades" la info de "nombre" en un map y aplico una funció anónima
+        let dades = nombre.map(function (character) {
+
+            // si l'objecte té la propietat "character", sumar +1.
+            //si no, es que apareix només una vegada "i" para en 1.
+            if (returnObject.hasOwnProperty(character)) {
+                returnObject[character] += 1;
+            } else {
+                returnObject[character] = 1;
+            }
+        });
+
+        // Mostrar el objecte per consola
+        console.log(returnObject);
+
+    </script>
+
+</body>
+
+</html>
