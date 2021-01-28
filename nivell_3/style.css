@@ -1,0 +1,28 @@
+body {
+    /* Fondo */
+    display: flex;
+    background-image: linear-gradient(180deg, #668a71 0, #5e856d 25%, #558068 50%, #4c7b63 75%, #437760 100%);
+    color: white;
+    padding: 200px;
+}
+/* Quita el borde del jumbotron */
+.jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+    
+}
+
+.container-fluid {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border 1px;
+    justify-content: center;
+
+}
+
+.list-group {
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+
+}
