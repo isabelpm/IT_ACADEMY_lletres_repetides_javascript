@@ -38,6 +38,12 @@ _És a dir, partim de 'array name i surname i al acabar l’execució només tin
 
 _Crea una funció que retorni un array amb tots els email (sense repetir) del següent text._
 
+## Previsualización - [Web](https://ogiks.csb.app/) 💻
+
+![screenshot_lletresRepetides](https://user-images.githubusercontent.com/67895734/106119428-7f40ce00-6155-11eb-8337-284eaa8396fe.png)
+
+
+## Previsualización [Código](https://codesandbox.io/s/itacademylletresrepetidesjavascript-ogiks) ⌨️
 
 
 ## Autores ✒️
